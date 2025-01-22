@@ -40,7 +40,7 @@ public class Forloop2 {
 		String[] a = new String[5];
 		int max = 0; 
 		while(run) {
-			System.out.println("1.학생이름,점수 2.최고점수 3.학생입력(단건) 4.학생정보 9.종료");
+			System.out.println("1.학생이름,점수 2.최고점수 3.학생입력(단건) 4.점수조회 9.종료");
 			System.out.println("<선택하세요>"); 
 			int pick = s.nextInt(); 
 			s.nextLine(); 
@@ -73,11 +73,15 @@ public class Forloop2 {
 								}
 								break; 
 							case 4: 
-								for(int i=0; i<a.length; i++) {
-									if (a[i] != null) {
-										System.out.println(a[i]); 
+								System.out.println("학생 이름을 입려하세요"); 
+								String name = s.nextLine(); 
+								
+								for (int i=0; i<a.length; i++) {
+									if (a[i].split(",")[0].equals(name)) {
+										System.out.println(a[i].split(",")[0] + "의 점수는 " + a[i].split(",")[1]); 
 									}
 								}
+								
 								break; 
 							case 9:
 								System.out.println("시스템을 종료합니다."); 
