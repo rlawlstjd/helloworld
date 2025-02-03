@@ -30,7 +30,7 @@ public class reference3 {
 		friends[2] = new String[] {name, phone, gender}; 
 		
 		for (int i=0; i<friends.length; i++) {
-			if (friends[i] != null && friends[i][0] != null) {
+			if (friends[i] != null && friends[i][0] != null) {//그냥 friends[i] !=null 하면 안에 값이 있기 때문에  하나 더 추가해줘야 함. 
 				System.out.println("이름은" + friends[i][0] + "연락처는" + friends[i][1]); 
 				
 			}
