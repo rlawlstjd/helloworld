@@ -1,4 +1,4 @@
-package com.yedam.reference;
+package cal; 
 
 public class CalculatorExe {
 	public static void main(String[] args) {

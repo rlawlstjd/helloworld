@@ -1,4 +1,4 @@
-package com.yedam.reference;
+package cal; 
 
 public class Calculator {
 	// 1월달 출력.

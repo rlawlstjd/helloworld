@@ -1,4 +1,4 @@
-package com.yedam.reference;
+package cal;
 
 public class Student {
 	// 필드(속성): 이름,영어,수학.

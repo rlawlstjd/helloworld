@@ -1,4 +1,4 @@
-package com.yedam.reference;
+package cal;
 /*
  * << 도서명, 저자, 출판사, 판매가격 >>
  */

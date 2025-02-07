@@ -1,4 +1,4 @@
-package com.yedam.reference;
+package cal;
 
 import java.util.Scanner;
 
